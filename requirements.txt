@@ -15,5 +15,5 @@ uvicorn==0.11.7
 websockets==9.1
 wrapt==1.11.2
 uvloop==0.14.0
-Flask==2.1.1
-pywhatkit==5.3
+Flask
+pywhatkit
