@@ -20,6 +20,6 @@ async def root():
 
 
 @app.get("/songs/{title}")
-async def root(title):
+async def geturl(title):
     url=pywhatkit.playonyt(title)
     return {"url":url}
